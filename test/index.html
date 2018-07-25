@@ -1,4 +1,5 @@
-<html>
+
+<!DOCTYPE html>
   <head>
     <!-- link external style sheets required for custom web compoenent -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
@@ -10,6 +11,9 @@
 
     <!-- load custom web component -->
     <wallet-module prop1="test"/>
+
+    <!-- import Custom Elements polyfill, for cross-browser compatibility (IE9+) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/document-register-element/1.4.1/document-register-element.js"></script>
 
     <!-- import external library dependencies required for custom web compoenent -->
     <script src="js/eth-key-lib-js-browser.js"></script>
