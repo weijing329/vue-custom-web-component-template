@@ -1,5 +1,7 @@
-# Set language
-*.js linguist-language=TypeScript
+# Set repositories main language to Typescript
+# Let linguist ignore all files except .ts
+* linguist-vendored
+*.ts linguist-vendored=false
 
 # Normalize line endings for all text files.
 * text=auto
