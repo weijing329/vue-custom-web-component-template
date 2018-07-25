@@ -11,5 +11,5 @@ import VueCustomElement from "vue-custom-element"
 Vue.use(VueCustomElement)
 
 // import and register your component(s)
-import WalletModule from "./components/wallet/wallet.vue"
-Vue.customElement("wallet-module", WalletModule)
+import App from "./layouts/app/app.vue";
+Vue.customElement("wallet-module", App);

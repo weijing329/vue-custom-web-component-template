@@ -1,5 +1,5 @@
 import Vue from "vue";
-import { Component, Prop } from "vue-property-decorator";
+import { Component } from "vue-property-decorator";
 
 declare global {
   interface Window {
@@ -11,8 +11,6 @@ declare global {
   components: {}
 })
 export default class WalletModule extends Vue {
-  @Prop(String) prop1!: string 
-
   _privateKey: string = "";
 
   _ethereumKeyJson: any = {};

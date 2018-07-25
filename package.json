@@ -1,5 +1,5 @@
 {
-  "name": "fstk-wallet-module",
+  "name": "vue-custom-web-component",
   "version": "1.0.0",
   "author": "",
   "license": "MIT",
@@ -13,6 +13,7 @@
   "dependencies": {
     "vue": "^2.5.16",
     "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
     "vuetify": "^1.1.8"
   },
   "devDependencies": {
